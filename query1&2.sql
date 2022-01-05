@@ -68,6 +68,8 @@ VALUES(1,'REACT CRUD APP'),(2,'MYSQL CRUD'),(3,'portfolio creation'),(4,'JS ASYN
 
 
 
+
+
 //mentors
 USE zenclassDB;
 CREATE TABLE mentors(
@@ -82,6 +84,22 @@ VALUES(1,'RAGAV KUMAR V',4),(2,'MURUGAN',2),(3,'NITIN',2),(4,'DEEPIKA',3),(5,'PR
 
 
 
+
+
+
+
+
+//codekata
+
+USE zenclassDB;
+CREATE TABLE codekata(
+	C_ID INT,
+    Problem_type VARCHAR(40),
+    Problem_solved INT
+);
+
+INSERT INTO codekata(C_ID,Problem_type,Problem_solved)
+VALUES(1,'HASHING',10),(2,'Binary Search',5),(3,'DIVIDE & CONQUER',8),(4,'PATTERNS',7),(5,'SORTING',5)
 
 
 //students_activated_courses
@@ -112,26 +130,6 @@ CREATE TABLE courses(
 );
 INSERT INTO courses(courseid,cour_name,students_enrolled)
 VALUES(1,'FULL STACK DEVELOPMENT',1),(2,'DATA SCIENCE',4),(3,'AI & ML',3),(4,'FULL STACK DEVELOPMENT',3),(5,'DSA',5)
-
-
-
-
-
-
-
-//codekata
-
-USE zenclassDB;
-CREATE TABLE codekata(
-	C_ID INT,
-    Problem_type VARCHAR(40),
-    Problem_solved INT
-);
-
-INSERT INTO codekata(C_ID,Problem_type,Problem_solved)
-VALUES(1,'HASHING',10),(2,'Binary Search',5),(3,'DIVIDE & CONQUER',8),(4,'PATTERNS',7),(5,'SORTING',5)
-
-
 
 
 
