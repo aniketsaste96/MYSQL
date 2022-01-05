@@ -1,5 +1,3 @@
-1. Create tables for the above list given
-2. insert at least 5 rows of values in each table
 
 
 //users
